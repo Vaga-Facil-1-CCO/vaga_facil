@@ -12,8 +12,8 @@
     <h2>Vaga Fácil</h2>
     <h4>Simulador financeiro</h4>
     Lucro na localização atual: <input id="inpLucro"><br>
-    Bairro atual: <input id="inpBairroVelho"><br>
-    Bairro novo: <input id="inpBairroNovo"><br>
+    Bairro da localização atual: <input id="inpBairroVelho"><br>
+    Bairro da nova localização: <input id="inpBairroNovo"><br>
     <button onclick="calcularLucro()">Calcular novo lucro</button>
     <div id="divLucro"></div>
 </body>
@@ -41,8 +41,8 @@
                 var ganhoEmpr = densEmpNovo / densEmpVelho;
                 var lucroNovo = lucroAtual * ganhoPop * ganhoEmpr * 1.58;
 
-                divLucro.innerHTML = `Diferença devido à população dos bairros <b>${100*ganhoPop - 100}%</b><br>
-                    Diferença devido à quantidade de empregos dos bairros <b>${100*ganhoEmpr - 100}%</b><br>
+                divLucro.innerHTML = `Diferença devido à densidade populacional dos bairros <b>${100*ganhoPop - 100}%</b><br>
+                    Diferença devido à densidade de empregos dos bairros <b>${100*ganhoEmpr - 100}%</b><br>
                     Escolhendo-se uma boa localização para o negócio, o novo lucro pode ser de até <b>R$ ${lucroNovo}</b>`
             }
         }
