@@ -19,7 +19,7 @@ insert into dadosPessoa value
  (NULL, 'Mariana de Almeida', '1999-07-13', '935.762.876-74', '11983651004','Rua Palanque 548', 'Batata_doce', 'mariana.almeida@hotmail.com', 5),
  (NULL, 'Arthur Aguiar', '2001-11-11', '678.125.437-56', '11997652998','Rua Aristeu Valente','llamem123', 'arthur.aguiar@outlook.com', 3 ),
  (NULL, 'Martha Simpson', '1995-06-02', '965.387.500-31', '11987341875','AV.Paulista 1100','Salada_sem_tempero', 'martha.simpson@hotmail', 4),
- (NULL, 'Fernanda Braguini', '2002-08-20', '793.678.165-76', '1199784567','Rua Cerrana Fluminense 182','senha123', 'fernanda.braguini@outlook.com', 4),
+ (NULL, 'Fernanda Braguini', '2002-08-20', '793.678.165-76', '11997845674','Rua Cerrana Fluminense 182','senha123', 'fernanda.braguini@outlook.com', 4),
  (Null, 'Caroline Bosieli', '1951-05-07', '666.798.455-63', '11976491778','Rua Morro do Valongo 1674','Queijo#derretido', 'caroline.bosieli@hotmail', 2);
 
 create table tipoDeVaga(
